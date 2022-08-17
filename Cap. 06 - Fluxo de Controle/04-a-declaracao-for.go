@@ -26,7 +26,9 @@ func main() {
 			x++
 			fmt.Println("x < 10")
 		} else {
+			fmt.Println("x >= 10")
 			break
 		}
 	}
+	fmt.Println("End looping.")
 }
